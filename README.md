@@ -1,7 +1,9 @@
 # CRM Project - Unite Flooring Hello App
 
 ## Introduction 
-This is a minimal Next.js 14 app that connects to Azure Database for PostgreSQL and shows simple counts, serving as a foundation for the Unite Flooring CRM system deployment and infrastructure setup.
+This is a minimal Next.js 15 app that connects to Azure Database for PostgreSQL and shows simple counts, serving as a foundation for the Unite Flooring CRM system deployment and infrastructure setup.
+
+**Status:** ✅ Ready for GitHub Actions deployment
 
 ## Getting Started
 # Unite Hello (Next.js + Azure App Service)
