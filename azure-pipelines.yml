@@ -41,7 +41,7 @@ steps:
 - task: AzureRmWebAppDeployment@4
   inputs:
     ConnectionType: 'AzureRM'
-    azureSubscription: 'CRM-APP'  # Update with your service connection name
+    azureSubscription: 'Azure'  # Update with your service connection name
     appType: 'webAppLinux'
     WebAppName: 'unite-hello-web'
     packageForLinux: '$(Build.ArtifactStagingDirectory)/app.zip'
