@@ -9,6 +9,12 @@ const nextConfig = {
   // Optimize for Azure App Service
   poweredByHeader: false,
   compress: true,
+  // Fix image optimization issues on App Service
+  images: {
+    unoptimized: true
+  },
+  // Ensure proper static file handling
+  trailingSlash: false,
 };
 
 module.exports = nextConfig;
