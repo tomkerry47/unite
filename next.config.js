@@ -6,6 +6,9 @@ const nextConfig = {
       bodySizeLimit: '2mb'
     }
   },
+  // Optimize for Azure App Service
+  poweredByHeader: false,
+  compress: true,
 };
 
 module.exports = nextConfig;

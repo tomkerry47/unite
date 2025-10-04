@@ -14,7 +14,7 @@ if command -v nvm &> /dev/null; then
 fi
 
 echo "📦 Installing dependencies..."
-npm ci --production=false
+npm install
 
 echo "🏗️  Building Next.js app (standalone)..."
 npm run build
